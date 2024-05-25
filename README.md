@@ -1,4 +1,4 @@
-## `【_Jeremy_无Docker带IPV6固件】（6.1内核）`
+## `【_Jeremy_无Docker带IPv6固件】（6.1内核）`
 #### 🚩 源码拉取`coolsnowwolf` `Lienol` `immortalwrt` `x-wrt` `openwrt` 自行选择编译
 - _Jeremy_适配OTA自动升级のX86固件
 - 默认IP地址：`10.10.10.2`
