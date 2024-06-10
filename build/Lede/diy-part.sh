@@ -63,8 +63,8 @@ export Disable_autosamba="1"                                           # 去掉�
 # 手动更换默认主题
 # uci set luci.main.mediaurlbase='/luci-static/neobird' && uci commit luci
 
-#rm -rf feeds/packages/lang/golang
-#git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
+# rm -rf feeds/packages/lang/golang
+# git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
 
 # 其他
 export Ttyd_account_free_login="1"                                     # 设置ttyd免密登录(1为启用命令,填0为不作修改)
