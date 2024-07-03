@@ -48,6 +48,9 @@ export Password_free_login="1"                                         # 设置�
 # 增加AdGuardHome插件和核心
 export AdGuardHome_Core="0"                                            # 编译固件时自动增加AdGuardHome插件和AdGuardHome插件核心,需要注意的是一个核心20多MB的,小闪存机子搞不来(1为启用命令,填0为不作修改)
 
+# 增加cloudflared插件和核心
+export cloudflared_Core="0"                                            # 编译固件时自动增加luci-app-cloudflared插件和cloudflared插件核心,(1为启用命令,填0为不作修改)  
+
 # 禁用ssrplus和passwall的NaiveProxy
 export Disable_NaiveProxy="1"                                          # 因个别源码的分支不支持编译NaiveProxy,不小心选择了就编译错误了,为减少错误,打开这个选项后,就算选择了NaiveProxy也会把NaiveProxy干掉不进行编译的(1为启用命令,填0为不作修改)
 
@@ -63,8 +66,8 @@ export Disable_autosamba="1"                                           # 去掉�
 # 手动更换默认主题
 # uci set luci.main.mediaurlbase='/luci-static/neobird' && uci commit luci
 
-# rm -rf feeds/packages/lang/golang
-# git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
+#rm -rf feeds/packages/lang/golang
+#git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
 
 # 其他
 export Ttyd_account_free_login="1"                                     # 设置ttyd免密登录(1为启用命令,填0为不作修改)
