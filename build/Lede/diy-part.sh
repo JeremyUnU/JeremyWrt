@@ -59,7 +59,7 @@ export Disable_NaiveProxy="1"                                          # 因个�
 export Automatic_Mount_Settings="0"                                    # 编译时加入开启NTFS格式盘挂载的所需依赖(1为启用命令,填0为不作修改)
 
 # 去除网络共享(autosamba)
-export Disable_autosamba="0"                                           # 去掉源码默认自选的luci-app-samba或luci-app-samba4(1为启用命令,填0为不作修改)
+export Disable_autosamba="1"                                           # 去掉源码默认自选的luci-app-samba或luci-app-samba4(1为启用命令,填0为不作修改)
 
 # 强制显示2500M和全双工（默认PVE下VirtIO不识别）
 # sed -i '/exit 0/i\ethtool -s eth0 speed 10000 duplex full' /etc/rc.local
